@@ -11,6 +11,7 @@ namespace PuzzleGame.Desktop
 
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
         public static GameState gameState;
         Menu menu;
 
@@ -33,24 +34,23 @@ namespace PuzzleGame.Desktop
 
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             menu.LoadContent(Content);
-            // TODO: use this.Content to load your game content here
+
         }
 
         protected override void UnloadContent()
         {
-            // TODO: Unload any non ContentManager content here
+
         }
 
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape) || gameState == GameState.EXIT)
                 Exit();
+                
 
-            // TODO: Add your update logic here
             menu.Update(gameTime);
             base.Update(gameTime);
         }
