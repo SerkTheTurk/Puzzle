@@ -17,3 +17,5 @@
 /home/serk/Projects/PuzzleGame/PuzzleGame/obj/Any CPU/Debug/PuzzleGame.Desktop.csproj.CopyComplete
 /home/serk/Projects/PuzzleGame/PuzzleGame/obj/Any CPU/Debug/PuzzleGame.Desktop.exe
 /home/serk/Projects/PuzzleGame/PuzzleGame/obj/Any CPU/Debug/PuzzleGame.Desktop.pdb
+/home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/quitBtn.xnb
+/home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/playBtn.xnb
