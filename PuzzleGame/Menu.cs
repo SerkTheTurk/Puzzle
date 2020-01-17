@@ -34,7 +34,7 @@ namespace PuzzleGame.Desktop
                 if (ks.IsKeyDown(Keys.Down))
                     selected = 1;
                 if (ks.IsKeyDown(Keys.Enter))
-                    Game1.gameState = GameState.PLAYING;
+                    Game1.gameState = GameState.LEVEL1;
             }
             if (selected == 1)
             {

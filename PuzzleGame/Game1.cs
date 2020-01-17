@@ -6,7 +6,7 @@ namespace PuzzleGame.Desktop
 {
     public class Game1 : Game
     {
-        public static int HEIGHT = 720;
+        public static int HEIGHT = 768;
         public static int WIDTH = 1280;
 
         GraphicsDeviceManager graphics;
@@ -14,6 +14,7 @@ namespace PuzzleGame.Desktop
 
         public static GameState gameState;
         Menu menu;
+        Level lvl1;
 
         public Game1()
         {
@@ -29,6 +30,8 @@ namespace PuzzleGame.Desktop
         {
             gameState = GameState.MENU;
             menu = new Menu();
+            lvl1 = new Level("Content/testlvl.csv");
+            lvl1.Initialize();
             base.Initialize();
         }
 
@@ -36,6 +39,7 @@ namespace PuzzleGame.Desktop
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            lvl1.LoadContent(Content);
             menu.LoadContent(Content);
 
         }
@@ -60,9 +64,14 @@ namespace PuzzleGame.Desktop
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
 
-            if (gameState == GameState.MENU)
+            switch (gameState)
             {
-                menu.Draw(spriteBatch);
+                case GameState.MENU:
+                    menu.Draw(spriteBatch);
+                    break;
+                case GameState.LEVEL1:
+                    lvl1.Draw(spriteBatch);
+                    break;
             }
 
             spriteBatch.End();

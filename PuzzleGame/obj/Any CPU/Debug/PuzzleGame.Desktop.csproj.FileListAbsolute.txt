@@ -19,3 +19,8 @@
 /home/serk/Projects/PuzzleGame/PuzzleGame/obj/Any CPU/Debug/PuzzleGame.Desktop.pdb
 /home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/quitBtn.xnb
 /home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/playBtn.xnb
+/home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/grass.xnb
+/home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/testlvl.csv
+/home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/brick.xnb
+/home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/water.xnb
+/home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/wall.xnb

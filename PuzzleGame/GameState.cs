@@ -4,7 +4,9 @@ namespace PuzzleGame.Desktop
     public enum GameState
     {
         MENU,
-        PLAYING,
-        EXIT
+        EXIT,
+        LEVEL1,
+        LEVEL2,
+        LEVEL3
     }
 }

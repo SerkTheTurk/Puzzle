@@ -8,11 +8,9 @@
     <File>/home/serk/Projects/PuzzleGame/PuzzleGame/Content/grass.png</File>
     <File>/home/serk/Projects/PuzzleGame/PuzzleGame/Content/playBtn.png</File>
     <File>/home/serk/Projects/PuzzleGame/PuzzleGame/Content/quitBtn.png</File>
-    <File>/home/serk/Projects/PuzzleGame/PuzzleGame/Content/wall.png</File>
     <File>/home/serk/Projects/PuzzleGame/PuzzleGame/Content/water.png</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
