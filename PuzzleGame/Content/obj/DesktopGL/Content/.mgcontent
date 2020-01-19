@@ -10,8 +10,10 @@
     <File>/home/serk/Projects/PuzzleGame/PuzzleGame/Content/quitBtn.png</File>
     <File>/home/serk/Projects/PuzzleGame/PuzzleGame/Content/wall.png</File>
     <File>/home/serk/Projects/PuzzleGame/PuzzleGame/Content/water.png</File>
+    <File>/home/serk/Projects/PuzzleGame/PuzzleGame/Content/wood.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

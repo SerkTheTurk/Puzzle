@@ -24,3 +24,4 @@
 /home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/brick.xnb
 /home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/water.xnb
 /home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/wall.xnb
+/home/serk/Projects/PuzzleGame/PuzzleGame/bin/DesktopGL/Any CPU/Debug/Content/wood.xnb

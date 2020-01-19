@@ -39,6 +39,9 @@ namespace PuzzleGame.Desktop
                 case 'd':
                     texture = content.Load<Texture2D>("wall");
                     break;
+                case 'f':
+                    texture = content.Load<Texture2D>("wood");
+                    break;
             }
             rect = new Rectangle((int)pos.X, (int)pos.Y, texture.Width, texture.Height);
         }
