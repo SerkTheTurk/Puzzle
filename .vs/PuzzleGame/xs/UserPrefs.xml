@@ -1,20 +1,18 @@
 ﻿<Properties StartupConfiguration="{905B6B3B-33B1-49FB-B691-AE30F88CB4F5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PuzzleGame/Level.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PuzzleGame/Game1.cs">
     <Files>
-      <File FileName="PuzzleGame/Game1.cs" Line="14" Column="9" />
+      <File FileName="PuzzleGame/Game1.cs" Line="14" Column="1" />
       <File FileName="PuzzleGame/Menu.cs" Line="37" Column="55" />
       <File FileName="PuzzleGame/GameState.cs" Line="6" Column="14" />
-      <File FileName="PuzzleGame/Tile.cs" Line="44" Column="27" />
+      <File FileName="PuzzleGame/Tile.cs" Line="36" Column="26" />
       <File FileName="PuzzleGame/Level.cs" Line="12" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PuzzleGame" expanded="True">
+          <Node name="PuzzleGame" expanded="True" selected="True">
             <Node name="PuzzleGame.Desktop" expanded="True">
-              <Node name="Content" expanded="True">
-                <Node name="Content.mgcb" selected="True" />
-              </Node>
+              <Node name="Content" expanded="True" />
             </Node>
           </Node>
         </State>
